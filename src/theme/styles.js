@@ -5,25 +5,25 @@ export const globalStyles = {
     gray: {
       700: "#1f2733",
     },
-    navy: {
-      50: "#d0dcfb",
-      100: "#aac0fe",
-      200: "#a3b9f8",
-      300: "#728fea",
-      400: "#3652ba",
-      500: "#1b3bbb",
-      600: "#24388a",
-      600: "#24388a",
-      700: "#1b254b",
-      800: "#111c44",
-      900: "#0b1437",
+    orange: {
+      50: "#FFFAF0",
+      100: "#FEEBC8",
+      200: "##FBD38D",
+      300: "##F6AD55",
+      400: "#ED8936",
+      500: "##DD6B20",
+      600: "##C05621",
+      600: "#DD634B",
+      700: "#9C4221",
+      800: "#7B341E",
+      900: "##652B19",
     },
   },
   styles: {
     global: (props) => ({
       body: {
         overflowX: "hidden",
-        bg: mode("gray.50", "#1B254B")(props),
+        bg: mode("gray.50", "#DD634B")(props),
         fontFamily: "Helvetica, sans-serif",
       },
       html: {
